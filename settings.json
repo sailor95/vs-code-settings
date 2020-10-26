@@ -1,0 +1,94 @@
+{
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "window.zoomLevel": 2,
+  "workbench.list.horizontalScrolling": true,
+  "editor.mouseWheelZoom": true,
+  "editor.formatOnSave": true,
+  "editor.rulers": [80],
+  "files.eol": "\n",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.tslint": true,
+    "source.fixAll.stylelint": true
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[javascript]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false
+  },
+  "[css]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false
+  },
+  "[typescriptreact]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false
+  },
+  "[vue]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.userWords": [
+    "devtools",
+    "firestore",
+    "flexbox",
+    "fontawesome",
+    "formik",
+    "fortawesome",
+    "leetcode",
+    "linkedin",
+    "linq",
+    "owasp",
+    "roadmap",
+    "udemy"
+  ],
+  "explorer.autoReveal": false,
+  "editor.minimap.enabled": false,
+  "todo-tree.general.tags": ["TODO", "FIXME", "NOTE"],
+  "todo-tree.highlights.customHighlight": {
+    "TODO": {
+      "icon": "check",
+      "iconColour": "green",
+      "foreground": "#E6E6E6",
+      "background": "#009999"
+    },
+    "FIXME": {
+      "icon": "alert",
+      "iconColour": "red",
+      "foreground": "white",
+      "background": "#990000"
+    },
+    "NOTE": {
+      "icon": "pencil",
+      "iconColour": "#6600CC"
+    }
+  },
+  "liveServer.settings.CustomBrowser": "chrome",
+  "explorer.compactFolders": false,
+  "[scss]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "editor.defaultFormatter": "michelemelluso.code-beautifier"
+  },
+  "todo-tree.tree.showScanModeButton": false,
+  "files.insertFinalNewline": true,
+  "editor.formatOnPaste": false,
+  "editor.formatOnType": false,
+  "prettier.useEditorConfig": false,
+  "prettier.singleQuote": true,
+  "prettier.arrowParens": "avoid",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}

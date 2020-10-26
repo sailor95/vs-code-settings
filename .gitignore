@@ -1,0 +1,4 @@
+# Ignore everything else
+*
+# Only record this json
+!settings.json

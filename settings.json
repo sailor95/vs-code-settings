@@ -2,6 +2,9 @@
   "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
   "window.zoomLevel": 2,
   "workbench.list.horizontalScrolling": true,
+  "workbench.colorCustomizations": {
+    "tab.activeBorderTop": "#00ffbf"
+  },
   "editor.mouseWheelZoom": true,
   "editor.formatOnSave": true,
   "editor.rulers": [80],
@@ -11,7 +14,6 @@
     "source.fixAll.tslint": true,
     "source.fixAll.stylelint": true
   },
-  "javascript.updateImportsOnFileMove.enabled": "always",
   "[javascript]": {
     "editor.tabSize": 2,
     "editor.insertSpaces": true,
@@ -21,7 +23,8 @@
   "[typescript]": {
     "editor.tabSize": 2,
     "editor.insertSpaces": true,
-    "editor.detectIndentation": false
+    "editor.detectIndentation": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[css]": {
     "editor.tabSize": 2,
@@ -31,7 +34,8 @@
   "[typescriptreact]": {
     "editor.tabSize": 2,
     "editor.insertSpaces": true,
-    "editor.detectIndentation": false
+    "editor.detectIndentation": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[vue]": {
     "editor.tabSize": 2,
@@ -40,16 +44,29 @@
   },
   "cSpell.userWords": [
     "devtools",
+    "ecommerce",
     "firestore",
     "flexbox",
     "fontawesome",
     "formik",
     "fortawesome",
+    "getac",
+    "gitlab",
+    "grindr",
     "leetcode",
+    "link",
     "linkedin",
+    "linköping",
     "linq",
+    "livestream",
+    "nctu",
+    "ourigin",
     "owasp",
+    "ping",
     "roadmap",
+    "scroller",
+    "spotify",
+    "swipeable",
     "udemy"
   ],
   "explorer.autoReveal": false,
@@ -83,8 +100,8 @@
   },
   "todo-tree.tree.showScanModeButton": false,
   "files.insertFinalNewline": true,
-  "editor.formatOnPaste": false,
-  "editor.formatOnType": false,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
   "prettier.useEditorConfig": false,
   "prettier.singleQuote": true,
   "prettier.arrowParens": "avoid",

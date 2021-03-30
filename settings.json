@@ -106,6 +106,7 @@
   "prettier.singleQuote": true,
   "prettier.arrowParens": "avoid",
   "prettier.semi": true,
+  "prettier.htmlWhitespaceSensitivity": "ignore",
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },

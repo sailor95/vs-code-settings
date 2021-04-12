@@ -8,6 +8,10 @@
   "editor.mouseWheelZoom": true,
   "editor.formatOnSave": true,
   "editor.rulers": [80],
+  "editor.minimap.enabled": false,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.suggestSelection": "first",
   "files.eol": "\n",
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
@@ -70,7 +74,7 @@
     "udemy"
   ],
   "explorer.autoReveal": false,
-  "editor.minimap.enabled": false,
+  "typescript.suggest.autoImports": true,
   "todo-tree.general.tags": ["TODO", "FIXME", "NOTE"],
   "todo-tree.highlights.customHighlight": {
     "TODO": {
@@ -87,6 +91,8 @@
     },
     "NOTE": {
       "icon": "pencil",
+      "foreground": "#E6E6E6",
+      "background": "#eb4034",
       "iconColour": "#6600CC"
     }
   },
@@ -100,8 +106,6 @@
   },
   "todo-tree.tree.showScanModeButton": false,
   "files.insertFinalNewline": true,
-  "editor.formatOnPaste": true,
-  "editor.formatOnType": true,
   "prettier.useEditorConfig": false,
   "prettier.singleQuote": true,
   "prettier.arrowParens": "avoid",
@@ -527,5 +531,6 @@
       "user-zoom",
       "orientation"
     ]
-  }
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always"
 }
